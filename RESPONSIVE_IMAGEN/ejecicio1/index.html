@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query imagenes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+       <picture>
+        <source media="min-width:1000px" srcset="./img2.jpg" alt="median">
+        <source  media="min-width:1300px" srcset="./img3.jpg" alt="large">
+        <img src="./img1.jpg" alt="pequeña">
+       </picture>
+    </main>
+</body>
+</html>
